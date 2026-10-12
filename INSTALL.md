@@ -1,6 +1,6 @@
 # Install LocalDrop
 
-LocalDrop 0.1.0 is a development build. An unsigned Windows installer preview is attached to each successful [CI run](https://github.com/bevyss/LocalDrop/actions/workflows/ci.yml) under **Artifacts**. Download `LocalDrop-Setup-0.1.0-win-x64-unsigned`, extract the ZIP, and run `LocalDrop-Setup-0.1.0-win-x64.exe`. It installs for the current user without administrator rights, adds a Start menu shortcut, and can be removed through Windows **Installed apps**. Because the preview has no trusted digital signature, Windows may display a security warning. No signed Windows release or Android release APK has been published under [Releases](https://github.com/bevyss/LocalDrop/releases). GitHub's **Source code** ZIP is not an installer.
+LocalDrop 0.1.0 is a development build. For Windows 10/11 x64, [download the Windows installer EXE](https://github.com/bevyss/LocalDrop/releases/download/v0.1.0-preview.1/LocalDrop-Setup-0.1.0-win-x64.exe) and run it. It installs for the current user without administrator rights, adds a Start menu shortcut, and can be removed through Windows **Installed apps**. This **preview is unsigned**; Windows may display a security warning. The [release page](https://github.com/bevyss/LocalDrop/releases/tag/v0.1.0-preview.1) lists its SHA-256 hash and test summary. No signed stable Windows release or Android release APK has been published. GitHub's **Source code** ZIP is not an installer.
 
 ## Requirements
 
@@ -49,9 +49,9 @@ The debug APK uses a development signing key and is for local testing. A future 
 
 Guest Wi-Fi isolation, VPNs, or firewalls blocking multicast DNS can prevent discovery. See [development troubleshooting](docs/DEVELOPMENT.md#manual-lan-check).
 
-## Future GitHub Releases
+## Verify downloads
 
-When release files are published, download them from the [Releases page](https://github.com/bevyss/LocalDrop/releases). The release notes must name the exact Windows package and Android APK, provide SHA-256 hashes and signing details, and link to the security scan results. Compare the downloaded file's hash with the release note:
+Download files from the [Releases page](https://github.com/bevyss/LocalDrop/releases). Compare the downloaded file's hash with the release note:
 
 ```powershell
 Get-FileHash .\downloaded-file -Algorithm SHA256

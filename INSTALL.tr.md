@@ -1,6 +1,6 @@
 # LocalDrop kurulumu
 
-**LocalDrop 0.1.0 geliştirme aşamasındadır.** Windows için tek tıklamalı kurulum EXE’si üretilebiliyor. İmzasız önizleme dosyası, [GitHub Actions](https://github.com/bevyss/LocalDrop/actions/workflows/ci.yml) içindeki başarılı son **CI** çalışmasının **Artifacts** bölümünde bulunur. `LocalDrop-Setup-0.1.0-win-x64-unsigned` ZIP dosyasını indirip açın, içindeki `LocalDrop-Setup-0.1.0-win-x64.exe` dosyasını çalıştırın. Kurulum yönetici yetkisi istemez; Başlat menüsüne LocalDrop kısayolu ekler ve Windows'un **Yüklü uygulamalar** bölümünden kaldırılabilir. Bu önizleme dijital olarak imzalı değildir; Windows güvenlik uyarısı gösterebilir. İmzalı, doğrulanmış bir sürüm henüz [Releases](https://github.com/bevyss/LocalDrop/releases) sayfasında yok. Android sürüm APK’sı da henüz yayımlanmadı. GitHub’ın **Source code** ZIP dosyası kurulum paketi değildir. Ayrıntılı İngilizce rehber: [INSTALL.md](INSTALL.md).
+**LocalDrop 0.1.0 geliştirme aşamasındadır.** Windows 10/11 x64 için [LocalDrop kurulum EXE’sini indir](https://github.com/bevyss/LocalDrop/releases/download/v0.1.0-preview.1/LocalDrop-Setup-0.1.0-win-x64.exe) ve çalıştır. Kurulum yönetici yetkisi istemez; Başlat menüsüne LocalDrop kısayolu ekler ve Windows'un **Yüklü uygulamalar** bölümünden kaldırılabilir. Bu **önizleme dijital olarak imzalı değildir**; Windows güvenlik uyarısı gösterebilir. [Sürüm sayfasında](https://github.com/bevyss/LocalDrop/releases/tag/v0.1.0-preview.1) dosyanın SHA-256 değeri ve test özeti bulunur. İmzalı, kararlı bir sürüm ve Android sürüm APK’sı henüz yok. GitHub’ın **Source code** ZIP dosyası kurulum paketi değildir. Ayrıntılı İngilizce rehber: [INSTALL.md](INSTALL.md).
 
 ## Gereksinimler
 
@@ -42,10 +42,10 @@ Debug APK geliştirme anahtarıyla imzalanır; herkese dağıtılacak sürüm i�
 
 Uygulamayı iki cihazda açın. **Yakındaki cihazlar** listesinden alıcıyı seçin ve dosya seçin. İlk bağlantıda iki ekrandaki güvenlik kodunu karşılaştırın; eşleşiyorsa onaylayın. Alıcı dosyayı kabul ettikten sonra dosya `Downloads/LocalDrop` klasöründe görünür.
 
-Gelecekte yayımlanacak imzalı dosyalar yalnızca [GitHub Releases](https://github.com/bevyss/LocalDrop/releases) sayfasından indirilmeli. Sürüm notundaki SHA-256 değeriyle indirdiğiniz dosyanın özetini karşılaştırın:
+Dosyaları yalnızca [GitHub Releases](https://github.com/bevyss/LocalDrop/releases) sayfasından indirin. Sürüm notundaki SHA-256 değeriyle indirdiğiniz dosyanın özetini karşılaştırın:
 
 ```powershell
 Get-FileHash .\indirilen-dosya -Algorithm SHA256
 ```
 
-Henüz yayımlanmış sürüm veya VirusTotal sonucu yok. Güvenlik adımları [sürüm kontrol listesinde](docs/RELEASE_SECURITY.md) açıklanmıştır.
+Önizleme kurulum dosyası yayımlandı; henüz imzalı kararlı sürüm veya VirusTotal sonucu yok. Güvenlik adımları [sürüm kontrol listesinde](docs/RELEASE_SECURITY.md) açıklanmıştır.

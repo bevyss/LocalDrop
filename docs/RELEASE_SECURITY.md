@@ -1,6 +1,6 @@
 # Release and security checklist
 
-This checklist is for the **exact binaries** to be attached to a future GitHub Release. CI artifacts currently include an unsigned Windows installer preview. No signed public release or VirusTotal result exists yet. A scan of an earlier preview cannot stand in for a scan of the final release file.
+This checklist is for the **exact binaries** to be attached to a future stable GitHub Release. An [unsigned Windows preview installer](https://github.com/bevyss/LocalDrop/releases/tag/v0.1.0-preview.1) is available. No signed stable release or VirusTotal result exists yet. A scan of the preview cannot stand in for a scan of the final release file.
 
 1. Build both apps from a reviewed commit and run `scripts/check.ps1` (Windows build and 12 core tests; Android build and unit tests). Record the commit, tool versions, test results, and any warnings in the release notes.
 2. Complete the two-device UI and transfer checks in [DEVELOPMENT.md](DEVELOPMENT.md). Confirm the selected Windows device card, all six language choices, name persistence, verification prompts, receive prompts, and file opening. A passing build does not verify the visual layout.
