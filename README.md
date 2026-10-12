@@ -1,6 +1,6 @@
 # LocalDrop
 
-LocalDrop is an open-source, local-network file transfer app for Windows and Android. **Version 0.1.0 is in development.** Two-way discovery, transfers in both directions, and a 1 GiB Windows-to-Android transfer have been tested on physical devices. See [installation and setup](INSTALL.md) or the [Türkçe kurulum rehberi](INSTALL.tr.md) for current source-build instructions. No public installer is available yet; check [GitHub Releases](https://github.com/bevyss/LocalDrop/releases) for future signed builds.
+LocalDrop is an open-source, local-network file transfer app for Windows and Android. **Version 0.1.0 is in development.** Two-way discovery, transfers in both directions, and a 1 GiB Windows-to-Android transfer have been tested on physical devices. See [installation and setup](INSTALL.md) or the [Türkçe kurulum rehberi](INSTALL.tr.md) for the unsigned Windows installer preview and source-build instructions. Check [GitHub Releases](https://github.com/bevyss/LocalDrop/releases) for future signed builds.
 
 ## Features
 
@@ -18,7 +18,7 @@ Screenshots of the updated Windows and Android interfaces will be added after ph
 
 ## Supported Platforms
 
-Windows 10/11 and Android 8.0+ (API 26+). Development builds are available; release installers are not yet published.
+Windows 10/11 and Android 8.0+ (API 26+). CI provides an unsigned Windows installer preview; signed release installers are not yet published.
 
 ## How It Works
 

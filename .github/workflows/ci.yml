@@ -15,6 +15,15 @@ jobs:
         run: dotnet build apps/windows/LocalDrop.Windows/LocalDrop.Windows.csproj -p:Platform=x64 --configuration Release
       - name: Protocol and identity tests
         run: dotnet test apps/windows/LocalDrop.Core.Tests/LocalDrop.Core.Tests.csproj --configuration Release
+      - name: Build Windows installer
+        shell: pwsh
+        run: ./scripts/build-windows-installer.ps1
+      - name: Upload Windows installer preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: LocalDrop-Setup-0.1.0-win-x64-unsigned
+          path: .tools/release/LocalDrop-Setup-0.1.0-win-x64.exe
+          if-no-files-found: error
 
   android:
     runs-on: ubuntu-24.04

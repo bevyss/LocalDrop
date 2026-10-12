@@ -1,6 +1,6 @@
 # LocalDrop kurulumu
 
-**LocalDrop 0.1.0 geliştirme aşamasındadır.** [GitHub deposunda](https://github.com/bevyss/LocalDrop) şu anda yayımlanmış Windows kurulum paketi veya Android sürüm APK’sı yok. GitHub’ın **Source code** ZIP dosyası bir kurulum paketi değildir. Hazır sürüm yayımlanana kadar aşağıdaki adımlarla kaynak koddan çalıştırabilirsiniz. Ayrıntılı İngilizce rehber: [INSTALL.md](INSTALL.md).
+**LocalDrop 0.1.0 geliştirme aşamasındadır.** Windows için tek tıklamalı kurulum EXE’si üretilebiliyor. İmzasız önizleme dosyası, [GitHub Actions](https://github.com/bevyss/LocalDrop/actions/workflows/ci.yml) içindeki başarılı son **CI** çalışmasının **Artifacts** bölümünde bulunur. `LocalDrop-Setup-0.1.0-win-x64-unsigned` ZIP dosyasını indirip açın, içindeki `LocalDrop-Setup-0.1.0-win-x64.exe` dosyasını çalıştırın. Kurulum yönetici yetkisi istemez; Başlat menüsüne LocalDrop kısayolu ekler ve Windows'un **Yüklü uygulamalar** bölümünden kaldırılabilir. Bu önizleme dijital olarak imzalı değildir; Windows güvenlik uyarısı gösterebilir. İmzalı, doğrulanmış bir sürüm henüz [Releases](https://github.com/bevyss/LocalDrop/releases) sayfasında yok. Android sürüm APK’sı da henüz yayımlanmadı. GitHub’ın **Source code** ZIP dosyası kurulum paketi değildir. Ayrıntılı İngilizce rehber: [INSTALL.md](INSTALL.md).
 
 ## Gereksinimler
 
@@ -18,6 +18,8 @@ dotnet run --project apps/windows/LocalDrop.Windows/LocalDrop.Windows.csproj -p:
 ```
 
 Bu komut geliştirme paketini açar; kalıcı bir son kullanıcı kurulum paketi oluşturmaz. Güvenlik duvarı sorarsa yalnızca **özel ağlar** için izin verin.
+
+Kendi kurulum EXE’nizi üretmek için [Inno Setup 6](https://jrsoftware.org/isdl.php) kurduktan sonra depo kökünde `./scripts/build-windows-installer.ps1` çalıştırın. Çıktı `.tools/release/LocalDrop-Setup-0.1.0-win-x64.exe` konumunda oluşur. Derleme için .NET 10 SDK ve WinUI araçları gerekir; kurulum dosyasını kullananların bunları kurması gerekmez.
 
 ## Android’de çalıştırma
 

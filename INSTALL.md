@@ -1,6 +1,6 @@
 # Install LocalDrop
 
-LocalDrop 0.1.0 is a development build. [The GitHub repository](https://github.com/bevyss/LocalDrop) does not yet have published Windows installers or Android release APKs. GitHub's automatically generated **Source code** ZIP is source code, not an installer. Use the build instructions below until a tested release appears under [Releases](https://github.com/bevyss/LocalDrop/releases).
+LocalDrop 0.1.0 is a development build. An unsigned Windows installer preview is attached to each successful [CI run](https://github.com/bevyss/LocalDrop/actions/workflows/ci.yml) under **Artifacts**. Download `LocalDrop-Setup-0.1.0-win-x64-unsigned`, extract the ZIP, and run `LocalDrop-Setup-0.1.0-win-x64.exe`. It installs for the current user without administrator rights, adds a Start menu shortcut, and can be removed through Windows **Installed apps**. Because the preview has no trusted digital signature, Windows may display a security warning. No signed Windows release or Android release APK has been published under [Releases](https://github.com/bevyss/LocalDrop/releases). GitHub's **Source code** ZIP is not an installer.
 
 ## Requirements
 
@@ -20,6 +20,8 @@ dotnet run --project apps/windows/LocalDrop.Windows/LocalDrop.Windows.csproj -p:
 ```
 
 This launches a development package using the WinUI tooling. It is not a production installer. If Windows Firewall asks, permit the app on **private networks** only.
+
+To build the installer yourself, install [Inno Setup 6](https://jrsoftware.org/isdl.php) and run `./scripts/build-windows-installer.ps1` from the repository root. The output is `.tools/release/LocalDrop-Setup-0.1.0-win-x64.exe`. End users of this installer do not need the .NET SDK or WinUI development tools.
 
 ### Android
 
