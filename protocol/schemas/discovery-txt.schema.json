@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LD/1 discovery TXT logical fields",
+  "description": "A JSON representation of DNS-SD TXT key/value fields for test vectors; JSON is not used on the wire.",
+  "type": "object",
+  "required": ["txtvers", "pv", "id", "name", "type", "caps"],
+  "properties": {
+    "txtvers": { "const": "1" },
+    "pv": { "const": "1" },
+    "id": { "type": "string", "pattern": "^[0-9a-f]{32}$" },
+    "name": { "type": "string", "minLength": 1 },
+    "type": { "enum": ["windows", "android"] },
+    "caps": { "enum": ["", "file1"] }
+  },
+  "additionalProperties": true
+}

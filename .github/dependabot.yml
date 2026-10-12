@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: nuget
+    directories:
+      - /apps/windows/LocalDrop.Windows
+      - /apps/windows/LocalDrop.Core.Tests
+    schedule:
+      interval: weekly
+  - package-ecosystem: gradle
+    directory: /apps/android
+    schedule:
+      interval: weekly
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly

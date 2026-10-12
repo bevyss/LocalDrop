@@ -1,0 +1,72 @@
+key	en	tr	de	es	zh	ja
+tagline	Direct transfer	Doğrudan aktarım	Direkte Übertragung	Transferencia directa	直接传输	直接転送
+workspace	WORKSPACE	ÇALIŞMA ALANI	ARBEITSBEREICH	ESPACIO DE TRABAJO	工作区	ワークスペース
+nearby	Nearby devices	Yakındaki cihazlar	Geräte in der Nähe	Dispositivos cercanos	附近的设备	近くのデバイス
+files	Received files	Alınan dosyalar	Empfangene Dateien	Archivos recibidos	已接收文件	受信したファイル
+settings	Settings	Ayarlar	Einstellungen	Ajustes	设置	設定
+local_network	LOCAL NETWORK	YEREL AĞ	LOKALES NETZWERK	RED LOCAL	本地网络	ローカルネットワーク
+encrypted	Encrypted device transfer	Şifreli cihaz aktarımı	Verschlüsselte Geräteübertragung	Transferencia cifrada entre dispositivos	加密设备传输	暗号化されたデバイス間転送
+this_device	This device: {0} · {1}	Bu cihaz: {0} · {1}	Dieses Gerät: {0} · {1}	Este dispositivo: {0} · {1}	此设备：{0} · {1}	このデバイス: {0} · {1}
+starting	Starting discovery…	Cihaz arama başlatılıyor…	Gerätesuche wird gestartet…	Iniciando búsqueda…	正在开始搜索…	検索を開始しています…
+searching	Searching on the local network…	Yerel ağda aranıyor…	Lokales Netzwerk wird durchsucht…	Buscando en la red local…	正在搜索本地网络…	ローカルネットワークを検索中…
+discovery_failed	Discovery could not start	Cihaz arama başlatılamadı	Gerätesuche konnte nicht gestartet werden	No se pudo iniciar la búsqueda	无法开始搜索	検索を開始できませんでした
+device_count	{0} device(s) nearby	Yakında {0} cihaz var	{0} Gerät(e) in der Nähe	{0} dispositivo(s) cercano(s)	附近有 {0} 台设备	近くに {0} 台のデバイス
+no_devices	No devices found yet	Henüz cihaz bulunamadı	Noch keine Geräte gefunden	Aún no se encontraron dispositivos	尚未发现设备	デバイスがまだ見つかりません
+online	Online	Çevrimiçi	Online	En línea	在线	オンライン
+choose_device	Choose a device, then select a file to send	Bir cihaz seçin, ardından gönderilecek dosyayı seçin	Gerät auswählen und dann eine Datei senden	Elige un dispositivo y luego un archivo	选择设备，然后选择要发送的文件	デバイスを選び、送信するファイルを選択
+tap_device	Tap a device to choose a file	Dosya seçmek için bir cihaza dokunun	Gerät antippen, um eine Datei auszuwählen	Toca un dispositivo para elegir un archivo	点击设备以选择文件	デバイスをタップしてファイルを選択
+send_file	Select file and send	Dosya seç ve gönder	Datei auswählen und senden	Elegir archivo y enviar	选择文件并发送	ファイルを選んで送信
+cancel_transfer	Cancel transfer	Aktarımı iptal et	Übertragung abbrechen	Cancelar transferencia	取消传输	転送をキャンセル
+files_subtitle	Files saved to Downloads / LocalDrop	Dosyalar İndirilenler / LocalDrop klasörüne kaydedilir	Dateien unter Downloads / LocalDrop gespeichert	Archivos guardados en Descargas / LocalDrop	文件保存在下载 / LocalDrop	ファイルはダウンロード / LocalDrop に保存
+refresh	Refresh	Yenile	Aktualisieren	Actualizar	刷新	更新
+open_folder	Open folder	Klasörü aç	Ordner öffnen	Abrir carpeta	打开文件夹	フォルダーを開く
+open	Open	Aç	Öffnen	Abrir	打开	開く
+no_files	No received files yet.	Henüz alınan dosya yok.	Noch keine Dateien empfangen.	Aún no hay archivos recibidos.	尚无已接收文件。	受信したファイルはまだありません。
+device_name	Device name	Cihaz adı	Gerätename	Nombre del dispositivo	设备名称	デバイス名
+device_name_hint	Name shown to nearby devices	Yakındaki cihazlarda görünen ad	Name für Geräte in der Nähe	Nombre visible para dispositivos cercanos	附近设备可见的名称	近くのデバイスに表示する名前
+device_name_help	Other devices see this name during discovery and verification. Your secure device identity stays the same.	Diğer cihazlar bu adı arama ve doğrulama sırasında görür. Güvenli cihaz kimliğiniz değişmez.	Andere Geräte sehen diesen Namen bei Suche und Bestätigung. Ihre sichere Geräteidentität bleibt gleich.	Otros dispositivos ven este nombre al buscar y verificar. Tu identidad segura no cambia.	其他设备会在搜索和验证时看到此名称。安全设备身份保持不变。	検索と確認の際に他のデバイスに表示されます。安全なデバイス ID は変わりません。
+save_name	Save device name	Cihaz adını kaydet	Gerätenamen speichern	Guardar nombre	保存设备名称	デバイス名を保存
+language	Language	Dil	Sprache	Idioma	语言	言語
+downloads	Downloads	İndirilenler	Downloads	Descargas	下载	ダウンロード
+downloads_help	Received files are stored in your Downloads / LocalDrop folder.	Alınan dosyalar İndirilenler / LocalDrop klasöründe saklanır.	Empfangene Dateien liegen im Ordner Downloads / LocalDrop.	Los archivos recibidos se guardan en Descargas / LocalDrop.	接收的文件保存在下载 / LocalDrop 文件夹中。	受信したファイルはダウンロード / LocalDrop に保存されます。
+open_downloads	Open downloads folder	İndirilenler klasörünü aç	Downloads-Ordner öffnen	Abrir carpeta de descargas	打开下载文件夹	ダウンロードフォルダーを開く
+decline	Decline	Reddet	Ablehnen	Rechazar	拒绝	拒否
+accept	Accept	Kabul et	Annehmen	Aceptar	接受	承認
+codes_match	Codes match	Kodlar eşleşiyor	Codes stimmen überein	Los códigos coinciden	代码一致	コードが一致
+secure_connection	Secure connection	Güvenli bağlantı	Sichere Verbindung	Conexión segura	安全连接	安全な接続
+confirm_code	This code also appears on {0}. Confirm that they match.	Bu kod {0} cihazında da görünüyor. Eşleştiğini doğrulayın.	Dieser Code erscheint auch auf {0}. Übereinstimmung bestätigen.	Este código también aparece en {0}. Confirma que coinciden.	此代码也显示在 {0} 上。请确认一致。	このコードが {0} にも表示されることを確認してください。
+incoming_file	Incoming file	Gelen dosya	Eingehende Datei	Archivo entrante	传入文件	受信ファイル
+wants_to_send	{0} wants to send:	{0} göndermek istiyor:	{0} möchte Folgendes senden:	{0} quiere enviar:	{0} 想要发送：	{0} が送信しようとしています:
+select_peer	Select a nearby device first	Önce yakındaki bir cihazı seçin	Zuerst ein Gerät in der Nähe auswählen	Elige primero un dispositivo cercano	请先选择附近的设备	先に近くのデバイスを選択してください
+unsupported_peer	This device does not support file transfer	Bu cihaz dosya aktarımını desteklemiyor	Dieses Gerät unterstützt keine Dateiübertragung	Este dispositivo no admite transferencia de archivos	此设备不支持文件传输	このデバイスはファイル転送に対応していません
+send_failed	Could not start transfer	Aktarım başlatılamadı	Übertragung konnte nicht gestartet werden	No se pudo iniciar la transferencia	无法开始传输	転送を開始できませんでした
+folder_failed	Could not open downloads folder	İndirilenler klasörü açılamadı	Downloads-Ordner konnte nicht geöffnet werden	No se pudo abrir la carpeta de descargas	无法打开下载文件夹	ダウンロードフォルダーを開けませんでした
+files_failed	Could not read the downloads folder	İndirilenler klasörü okunamadı	Downloads-Ordner konnte nicht gelesen werden	No se pudo leer la carpeta de descargas	无法读取下载文件夹	ダウンロードフォルダーを読み取れませんでした
+open_failed	No application can open this file	Bu dosyayı açabilecek uygulama yok	Keine Anwendung kann diese Datei öffnen	Ninguna aplicación puede abrir este archivo	没有应用可打开此文件	このファイルを開けるアプリがありません
+busy_name	Finish or cancel the active transfer first	Önce etkin aktarımı bitirin veya iptal edin	Aktive Übertragung zuerst abschließen oder abbrechen	Termina o cancela la transferencia activa primero	请先完成或取消当前传输	進行中の転送を完了またはキャンセルしてください
+name_unchanged	Device name is already up to date	Cihaz adı zaten güncel	Gerätename ist bereits aktuell	El nombre ya está actualizado	设备名称已是最新	デバイス名はすでに最新です
+name_saved	Saved. Nearby devices will see the new name shortly.	Kaydedildi. Yakındaki cihazlar yeni adı kısa süre içinde görecek.	Gespeichert. Geräte in der Nähe sehen bald den neuen Namen.	Guardado. Los dispositivos cercanos verán el nombre pronto.	已保存。附近的设备很快会看到新名称。	保存しました。近くのデバイスにはまもなく新しい名前が表示されます。
+name_invalid	Use 1–64 UTF-8 bytes without control characters	Kontrol karakteri içermeyen 1–64 UTF-8 bayt kullanın	1–64 UTF-8-Bytes ohne Steuerzeichen verwenden	Usa 1–64 bytes UTF-8 sin caracteres de control	请输入 1–64 个 UTF-8 字节，不能包含控制字符	制御文字を含まない 1～64 UTF-8 バイトを使用してください
+name_failed	Could not save device name	Cihaz adı kaydedilemedi	Gerätename konnte nicht gespeichert werden	No se pudo guardar el nombre	无法保存设备名称	デバイス名を保存できませんでした
+transfer_cancelled	Transfer cancelled	Aktarım iptal edildi	Übertragung abgebrochen	Transferencia cancelada	传输已取消	転送をキャンセルしました
+secure_failed	Secure connection could not start	Güvenli bağlantı başlatılamadı	Sichere Verbindung konnte nicht gestartet werden	No se pudo iniciar la conexión segura	无法建立安全连接	安全な接続を開始できませんでした
+secure_error	Secure connection failed	Güvenli bağlantı başarısız oldu	Sichere Verbindung fehlgeschlagen	Falló la conexión segura	安全连接失败	安全な接続に失敗しました
+receiver_space	Receiver has insufficient storage space	Alıcıda yeterli depolama alanı yok	Empfänger hat zu wenig Speicherplatz	El receptor no tiene suficiente espacio	接收方存储空间不足	受信側の空き容量が不足しています
+receiver_declined	Receiver declined the transfer	Alıcı aktarımı reddetti	Empfänger hat die Übertragung abgelehnt	El receptor rechazó la transferencia	接收方拒绝了传输	受信側が転送を拒否しました
+no_space	Not enough storage space	Yeterli depolama alanı yok	Nicht genügend Speicherplatz	No hay suficiente espacio	存储空间不足	空き容量が不足しています
+sending	Sending {0}	Gönderiliyor: {0}	Wird gesendet: {0}	Enviando: {0}	正在发送：{0}	送信中: {0}
+receiving	Receiving {0}	Alınıyor: {0}	Wird empfangen: {0}	Recibiendo: {0}	正在接收：{0}	受信中: {0}
+sent	Sent {0}	Gönderildi: {0}	Gesendet: {0}	Enviado: {0}	已发送：{0}	送信完了: {0}
+received	Received {0}	Alındı: {0}	Empfangen: {0}	Recibido: {0}	已接收：{0}	受信完了: {0}
+received_folder	Received {0} in Downloads/LocalDrop	{0} İndirilenler/LocalDrop klasörüne alındı	{0} in Downloads/LocalDrop empfangen	{0} recibido en Descargas/LocalDrop	{0} 已保存到下载/LocalDrop	{0} をダウンロード/LocalDrop に保存しました
+network_timeout	Connection timed out or network changed	Bağlantı zaman aşımına uğradı veya ağ değişti	Zeitüberschreitung oder Netzwerkwechsel	Tiempo de espera agotado o cambio de red	连接超时或网络已更改	接続がタイムアウトしたかネットワークが変わりました
+network_lost	Connection lost or device unavailable	Bağlantı kesildi veya cihaz kullanılamıyor	Verbindung verloren oder Gerät nicht verfügbar	Se perdió la conexión o el dispositivo no está disponible	连接丢失或设备不可用	接続が切れたかデバイスが利用できません
+file_io	File could not be read or written	Dosya okunamadı veya yazılamadı	Datei konnte nicht gelesen oder geschrieben werden	No se pudo leer o escribir el archivo	无法读取或写入文件	ファイルを読み書きできませんでした
+transfer_failed	Transfer failed	Aktarım başarısız oldu	Übertragung fehlgeschlagen	Falló la transferencia	传输失败	転送に失敗しました
+security_failed	Security verification failed	Güvenlik doğrulaması başarısız oldu	Sicherheitsprüfung fehlgeschlagen	Falló la verificación de seguridad	安全验证失败	セキュリティ確認に失敗しました
+invalid_message	Unsupported or invalid LocalDrop message	Desteklenmeyen veya geçersiz LocalDrop iletisi	Ungültige oder nicht unterstützte LocalDrop-Nachricht	Mensaje de LocalDrop no válido o no compatible	不支持或无效的 LocalDrop 消息	無効または未対応の LocalDrop メッセージ
+peer_unavailable	Device unavailable for file transfer	Cihaz dosya aktarımı için kullanılamıyor	Gerät für Dateiübertragung nicht verfügbar	Dispositivo no disponible para transferir archivos	设备无法用于文件传输	このデバイスではファイルを転送できません
+transfer_busy	A transfer is already active	Zaten etkin bir aktarım var	Eine Übertragung läuft bereits	Ya hay una transferencia en curso	已有传输正在进行	別の転送が進行中です
+progress	{0}: {1}/{2} bytes · {3}% · {4} MiB/s · about {5}s left	{0}: {1}/{2} bayt · %{3} · {4} MiB/sn · yaklaşık {5} sn kaldı	{0}: {1}/{2} Bytes · {3}% · {4} MiB/s · noch etwa {5} s	{0}: {1}/{2} bytes · {3}% · {4} MiB/s · quedan unos {5} s	{0}：{1}/{2} 字节 · {3}% · {4} MiB/秒 · 约剩 {5} 秒	{0}: {1}/{2} バイト · {3}% · {4} MiB/秒 · 残り約 {5} 秒
+advertise_failed	Could not advertise this device ({0})	Bu cihaz duyurulamadı ({0})	Dieses Gerät konnte nicht angekündigt werden ({0})	No se pudo anunciar este dispositivo ({0})	无法广播此设备（{0}）	このデバイスを公開できませんでした（{0}）
+local_discovery_failed	Local discovery failed ({0})	Yerel cihaz arama başarısız oldu ({0})	Lokale Gerätesuche fehlgeschlagen ({0})	Falló la búsqueda local ({0})	本地搜索失败（{0}）	ローカル検索に失敗しました（{0}）

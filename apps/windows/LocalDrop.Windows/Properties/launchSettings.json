@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LocalDrop.Windows (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "LocalDrop.Windows (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "serviceType": "_localdrop._tcp.local.",
+  "valid": {
+    "txtvers": "1",
+    "pv": "1",
+    "id": "0123456789abcdef0123456789abcdef",
+    "name": "Pixel Phone",
+    "type": "android",
+    "caps": ""
+  },
+  "invalid": [
+    { "pv": "2", "reason": "unsupported protocol" },
+    { "id": "not-an-id", "reason": "invalid identity" },
+    { "name": "", "reason": "empty name" }
+  ]
+}
