@@ -38,5 +38,5 @@ dependencies {
     implementation("com.google.code.gson:gson:2.14.0")
     implementation("androidx.core:core:1.16.0")
     testImplementation("junit:junit:4.13.2")
-    testImplementation("org.json:json:20240303")
+    testImplementation("org.json:json:20260814")
 }
